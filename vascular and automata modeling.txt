@@ -1,0 +1,376 @@
+﻿FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Legaria-Pena, Juan Uriel
+   Sanchez-Morales, Felix
+   Cortes-Poza, Yuriria
+TI Understanding post-angiogenic tumor growth: Insights from vascular
+   network properties in cellular automata modeling
+SO CHAOS SOLITONS & FRACTALS
+VL 186
+AR 115199
+DI 10.1016/j.chaos.2024.115199
+EA JUL 2024
+DT Article
+PD SEP 2024
+PY 2024
+RI Legaria Pena, Juan Uriel/KUC-8043-2024; Cortes-Poza, Yuriria/HXS-6182-2023; Legaria Peña, Juan Uriel/KUC-8043-2024
+OI Legaria Pena, Juan Uriel/0000-0003-2432-5371; Cortes-Poza,
+   Yuriria/0000-0003-1856-9206; 
+ZS 0
+TC 1
+Z8 0
+ZR 0
+ZA 0
+ZB 0
+Z9 1
+SN 0960-0779
+EI 1873-2887
+DA 2024-07-18
+UT WOS:001264059700001
+ER
+
+PT J
+AU Yang, Jun
+   Wang, Zhi-Rui
+   Yang, De-Li
+   Yang, Qing
+   Yan, Jun
+   He, Ming-Feng
+TI Ecological risk assessment of genetically modified crops based on
+   cellular automata modeling
+SO BIOTECHNOLOGY ADVANCES
+VL 27
+IS 6
+BP 1132
+EP 1136
+DI 10.1016/j.biotechadv.2009.05.024
+DT Article; Proceedings Paper
+PD NOV-DEC 2009
+PY 2009
+CT 13th International Biotechnology Symposium and Exhibition (IBS) of the
+   Biotechnology-for-the-Sustainability-of-Human-Society
+CY OCT 12-17, 2008
+CL Dalian, PEOPLES R CHINA
+SP Biotechnol Sustainabil Human Soc
+RI he, mingfeng/HTS-0356-2023; , Qing/; Yang, Qing/JCE-0858-2023; Yang, Jun/D-6353-2011
+OI , Qing/0000-0001-8623-7532; Yang, Jun/0000-0002-4409-3099
+ZA 0
+ZS 0
+ZR 0
+ZB 3
+Z8 4
+TC 6
+Z9 11
+SN 0734-9750
+EI 1873-1899
+DA 2009-11-01
+UT WOS:000271554200042
+PM 19477260
+ER
+
+PT J
+AU Frolov, Pavel
+   Shanin, Vladimir
+   Zubkova, Elena
+   Bykhovets, Sergey
+   Grabarnik, Pavel
+TI CAMPUS-S - The model of ground layer vegetation populations in forest
+   ecosystems and their contribution to the dynamics of carbon and
+   nitrogen. I. Problem formulation and description of the model
+SO ECOLOGICAL MODELLING
+VL 431
+AR 109184
+DI 10.1016/j.ecolmodel.2020.109184
+DT Article
+PD SEP 1 2020
+PY 2020
+RI Frolov, Pavel/JBR-9180-2023; Frolov, Pavel/H-5787-2016; Shanin, Vladimir/; , Zubkova/J-7373-2018; Shanin, Vladimir/H-3571-2014; Grabarnik, Pavel/ABG-3467-2020; Bykhovets, Sergei/E-6937-2012
+OI Frolov, Pavel/0000-0001-6564-9829; Shanin, Vladimir/0000-0002-8294-7796;
+   Bykhovets, Sergei/0000-0002-8860-2027
+Z8 0
+ZA 0
+ZS 0
+ZR 0
+ZB 5
+TC 5
+Z9 8
+SN 0304-3800
+EI 1872-7026
+DA 2020-08-21
+UT WOS:000557222300031
+ER
+
+PT C
+AU Topa, Pawel
+BE Umeo, H
+   Morishita, S
+   Nishinari, K
+   Komatsuzaki, T
+   Bandini, S
+TI Dynamically Reorganising Vascular Networks Modelled Using Cellular
+   Automata Approach
+SO CELLULAR AUTOMATA, PROCEEDINGS
+SE Lecture Notes in Computer Science
+VL 5191
+BP 494
+EP 499
+DT Proceedings Paper
+PD 2008
+PY 2008
+CT 8th International Conference on Cellular Automata for Research and
+   Industry
+CY SEP 23-26, 2008
+CL Yokohama, JAPAN
+SP Yokohama Natl Univ; Univ Osaka Elctro Commun; Univ Tokyo; Kanazawa Univ;
+   Kozo Keikaku Engn; City Yokohama
+RI Topa, Pawel/H-8941-2012; Topa, Paweł/H-8941-2012
+OI Topa, Pawel/0000-0002-6772-499X; 
+ZR 0
+ZB 4
+ZS 0
+ZA 0
+Z8 0
+TC 12
+Z9 12
+SN 0302-9743
+EI 1611-3349
+BN 978-3-540-79991-7
+DA 2008-01-01
+UT WOS:000260420600063
+ER
+
+PT C
+AU Dai, Weizhong
+BE Rocha, LAO
+   Lorente, S
+   Bejan, A
+TI Constructal Theory Applied to Vascular Countercurrent Networks
+SO CONSTRUCTAL LAW AND THE UNIFYING PRINCIPLE OF DESIGN
+SE Understanding Complex Systems Springer Complexity
+BP 143
+EP 160
+DI 10.1007/978-1-4614-5049-8_9
+DT Proceedings Paper
+PD 2013
+PY 2013
+CT Constructal Law Conference
+CY DEC 01-02, 2011
+CL Univ Fed Rio Grande Sol, Ecole Engenharia, Porto Alegre, BRAZIL
+HO Univ Fed Rio Grande Sol, Ecole Engenharia
+ZB 0
+TC 0
+ZS 0
+ZR 0
+ZA 0
+Z8 0
+Z9 0
+SN 1860-0832
+BN 978-1-4614-5048-1
+DA 2013-05-10
+UT WOS:000317245500010
+ER
+
+PT J
+AU ERMENTROUT, GB
+   EDELSTEINKESHET, L
+TI CELLULAR AUTOMATA APPROACHES TO BIOLOGICAL MODELING
+SO JOURNAL OF THEORETICAL BIOLOGY
+VL 160
+IS 1
+BP 97
+EP 133
+DI 10.1006/jtbi.1993.1007
+DT Article
+PD JAN 7 1993
+PY 1993
+TC 476
+ZA 0
+Z8 11
+ZB 137
+ZS 0
+ZR 0
+Z9 546
+SN 0022-5193
+EI 1095-8541
+DA 1993-01-07
+UT WOS:A1993KM36800007
+PM 8474249
+ER
+
+PT B
+AU DeLanda, Manuel
+BA DeLanda, M
+TI CELLULAR AUTOMATA AND PATTERNS OF FLOW
+SO PHILOSOPHY AND SIMULATION: THE EMERGENCE OF SYNTHETIC REASON
+SE Bloomsbury Revelations
+BP 21
+EP +
+DT Article; Book Chapter
+PD 2019
+PY 2019
+Z8 0
+ZA 0
+ZB 0
+TC 0
+ZR 0
+ZS 0
+Z9 0
+BN 978-1-350-09678-3; 978-1-350-09679-0
+DA 2020-05-18
+UT WOS:000527014700003
+ER
+
+PT J
+AU Puigdefábregas, J
+   Gallart, F
+   Biaciotto, O
+   Allogia, M
+   del Barrio, G
+TI Banded vegetation patterning in a subantarctic forest of Tierra del
+   Fuego, as an outcome of the interaction between wind and tree growth
+SO ACTA OECOLOGICA-INTERNATIONAL JOURNAL OF ECOLOGY
+VL 20
+IS 3
+BP 135
+EP 146
+DI 10.1016/S1146-609X(99)80027-7
+DT Article; Proceedings Paper
+PD MAY-JUN 1999
+PY 1999
+CT International Symposium on Banded Vegetation Patterns
+CY APR, 1996
+CL PARIS, FRANCE
+SP Orstom Inst; SALT Res Project
+RI del Barrio, Gabriel/D-3865-2013; gallart, francesc/L-9177-2013
+OI del Barrio, Gabriel/0000-0001-6146-9433; gallart,
+   francesc/0000-0002-7050-2204
+ZR 0
+ZA 0
+ZB 11
+TC 21
+ZS 1
+Z8 2
+Z9 24
+SN 1146-609X
+DA 1999-05-01
+UT WOS:000081914900002
+ER
+
+PT J
+AU Meri, Agnes
+   Karsai, Janos
+TI MODELLING THE SPATIAL AND TEMPORAL DISPERSAL OF CUSCUTA EUROPEA
+   (CUSCUTACEAE)
+SO POLISH JOURNAL OF ECOLOGY
+VL 61
+IS 4
+BP 811
+EP 817
+DT Article
+PD 2013
+PY 2013
+ZS 0
+ZR 0
+ZA 0
+Z8 0
+TC 0
+ZB 0
+Z9 0
+SN 1505-2249
+DA 2014-01-15
+UT WOS:000328665800018
+ER
+
+PT B
+AU Iba, Hitoshi
+BA Iba, H
+TI Cellular Automata Simulation
+SO AGENT-BASED MODELING AND SIMULATION WITH SWARM
+SE Chapman & Hall CRC Studies in Informatics Series
+BP 179
+EP 247
+DT Article; Book Chapter
+PD 2013
+PY 2013
+ZA 0
+Z8 0
+ZB 0
+ZR 0
+TC 0
+ZS 0
+Z9 0
+BN 978-1-4665-6240-0; 978-1-4665-6234-9
+DA 2013-01-01
+UT WOS:000351304400008
+ER
+
+PT S
+AU Dzwinel, Witold
+BE Byrski, A
+   Oplatkova, Z
+   Carvalho, M
+   KisielDorohinicki, M
+TI Complex Automata as a Novel Conceptual Framework for Modeling Biomedical
+   Phenomena
+SO ADVANCES IN INTELLIGENT MODELLING AND SIMULATION: SIMULATION TOOLS AND
+   APPLICATIONS
+SE Studies in Computational Intelligence
+VL 416
+BP 269
+EP 298
+DT Article; Book Chapter
+PD 2012
+PY 2012
+RI dzwinel, witold/; Dzwinel, Witold/C-3872-2008
+OI dzwinel, witold/0000-0001-8321-5928; 
+ZS 0
+ZA 0
+Z8 0
+ZB 1
+TC 5
+ZR 0
+Z9 5
+SN 1860-949X
+EI 1860-9503
+BN 978-3-642-28887-6
+DA 2012-12-05
+UT WOS:000309564900011
+D2 10.1007/978-3-642-28888-3
+ER
+
+PT S
+AU Bussemaker, HJ
+BE Buchler, JR
+   Dufty, JW
+   Kandrup, HE
+TI Simulations of cellular automata
+SO LONG-RANGE CORRELATIONS IN ASTROPHYSICAL SYSTEMS
+SE ANNALS OF THE NEW YORK ACADEMY OF SCIENCES
+VL 848
+BP 26
+EP 27
+DI 10.1111/j.1749-6632.1998.tb08955.x
+DT Article; Proceedings Paper
+PD 1998
+PY 1998
+CT 1997 Florida Workshop in Nonlinear Astronomy
+CY FEB 20-22, 1997
+CL UNIV FLORIDA, GAINESVILLE, FLORIDA
+HO UNIV FLORIDA
+SP Univ Florida. Coll Liberal arts & Sci; Univ Florida, dept Phys & Astron;
+   Natl Sci Fdn; Univ Florida, Off Res Technol & Grad Educ
+ZS 0
+ZB 0
+TC 0
+ZR 0
+Z8 0
+ZA 0
+Z9 0
+SN 0077-8923
+BN 1-57331-112-X
+DA 1998-01-01
+UT WOS:000074952000004
+ER
+
+EF
