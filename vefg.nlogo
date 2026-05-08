@@ -1,4 +1,4 @@
-patches-own[tumor resources dead taf]
+patches-own[tumor resources dead taf dist vassels]
 
 to setup
   ca
@@ -9,6 +9,13 @@ to setup
     set dead False
     set tumor False
     set taf 0
+    set vassels False
+    set dist 0
+  ]
+
+  ask patches with [pxcor = 0][
+    set pcolor red
+    set vassels True
   ]
 
   ;;tumor cuadrado
@@ -23,6 +30,7 @@ to go
   difusion
   clear-turtles
   hypoxia
+  vegf
 end
 
 to difusion
@@ -49,10 +57,6 @@ to difusion
 end
 
 to hypoxia
-  ;;incrementa el taf en las muertas
-  ask patches with[dead = True][
-    set taf (taf + 1)
-  ]
   ;;checa si la cantidad de recursos es menor para matarlas
   ask patches with[resources < 50 and tumor = True][
     set pcolor black ;;grey
@@ -70,6 +74,18 @@ to energyloss
     set resources (resources - 20)
   ]
 end
+
+to vegf
+  let hypo patches with [dead = True]
+  ask patches [
+    if any? hypo[
+      let min-dist min [distance myself] of hypo
+      set dist min-dist
+    ]
+  ]
+end
+
+
 
 to move
  let choice random 100

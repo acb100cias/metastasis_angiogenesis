@@ -1,4 +1,5 @@
-patches-own[tumor resources dead taf]
+patches-own[tumor resources dead taf dist vassels punta]
+breed[nuevos nuevo]
 
 to setup
   ca
@@ -9,8 +10,23 @@ to setup
     set dead False
     set tumor False
     set taf 0
+    set vassels False
+    set dist 0
+    set punta False
   ]
 
+  ask patches with [pxcor = -90][
+    set pcolor red
+    ;;escoge de manera aleatoria algunos vassels para generar el angiogenesis
+    if random 100 < 6[
+      set vassels True
+      set punta True
+    ]
+  ]
+
+  ;;ask patches with [] [
+
+  ;;]
   ;;tumor cuadrado
   ask patches with[20 < pxcor and pxcor < 30 and 20 < pycor and pycor < 30][
     set pcolor grey
@@ -21,8 +37,13 @@ end
 
 to go
   difusion
-  clear-turtles
   hypoxia
+  clear-turtles
+  vegf
+  angiogenesis
+  generate_vassels
+  alimentar
+  tick
 end
 
 to difusion
@@ -49,12 +70,8 @@ to difusion
 end
 
 to hypoxia
-  ;;incrementa el taf en las muertas
-  ask patches with[dead = True][
-    set taf (taf + 1)
-  ]
   ;;checa si la cantidad de recursos es menor para matarlas
-  ask patches with[resources < 50 and tumor = True][
+  ask patches with[resources < 20 and tumor = True][
     set pcolor black ;;grey
     set dead True
     set taf 1
@@ -70,6 +87,94 @@ to energyloss
     set resources (resources - 20)
   ]
 end
+
+to vegf
+  let hypo patches with [dead = True]
+  ask patches [
+    if any? hypo[
+      let min-dist min [distance myself] of hypo
+      if min-dist != 0[
+        set dist (1 / (min-dist * 500)) * 10
+      ]
+    ]
+  ]
+end
+
+to angiogenesis
+  let choice random 100
+  ask patches with [(vassels = True) and (punta = True)][
+    if choice < pv + dist [
+      sprout-nuevos 1
+      set punta False
+    ]
+  ]
+end
+
+to alimentar
+  ask patches with [vassels = true][
+    ask neighbors with [tumor = true and dead = false][
+      set resources (resources + 20)
+    ]
+  ]
+end
+
+;;to separate
+;;  ask nuevos[
+;;      let vecino min-one-of distance (patch with (punta = True)) in-radius 10 [distance myself]
+;;
+;;  ]
+;;    set heading (towards vecino)
+;;    right one-of ["separation_angle" "(- (separation_angle)"]
+;;end
+
+to vassels_branch
+  if random 100 < 1[
+      hatch-nuevos 1
+    ]
+  ask patch-here[
+      set pcolor red
+      set vassels True
+      set punta True
+
+      ask neighbors[
+        set pcolor red
+        set vassels True
+      ]
+    ]
+  ask nuevos [die]
+end
+
+to generate_vassels
+  ask nuevos[
+    let richest max-one-of patches in-radius 2[dist]
+    face richest
+    ;;vassels_branch
+    ;;separate
+    right random 90
+    left random 90
+
+    fd 1
+    ask patch-here[
+      if ((dead = false) or (tumor = false))[
+        set pcolor red
+        set vassels True
+        set punta True
+        ask neighbors[
+          if ((dead = false) or (tumor = false))[
+            set pcolor red
+            set vassels True
+          ]
+        ]
+      ]
+    ]
+    die
+  ]
+end
+
+
+
+
+
 
 to move
  let choice random 100
@@ -111,10 +216,10 @@ to stay
 end
 @#$#@#$#@
 GRAPHICS-WINDOW
-254
-10
-664
-421
+264
+55
+674
+466
 -1
 -1
 2.0
@@ -124,15 +229,15 @@ GRAPHICS-WINDOW
 1
 1
 0
-1
-1
+0
+0
 1
 -100
 100
 -100
 100
-0
-0
+1
+1
 1
 ticks
 30.0
@@ -195,7 +300,7 @@ pup
 pup
 0
 100
-0.0
+25.0
 1
 1
 NIL
@@ -225,7 +330,7 @@ pdw
 pdw
 0
 100
-50.0
+25.0
 1
 1
 NIL
@@ -255,6 +360,36 @@ pbranch
 pbranch
 0
 100
+50.0
+1
+1
+NIL
+HORIZONTAL
+
+SLIDER
+864
+158
+1036
+191
+pv
+pv
+0
+100
+65.0
+1
+1
+NIL
+HORIZONTAL
+
+SLIDER
+872
+266
+1044
+299
+separation_angle
+separation_angle
+0
+90
 50.0
 1
 1
